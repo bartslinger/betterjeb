@@ -1,0 +1,12 @@
+[package]
+name = "betterjeb"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+krpc_mars = { path = "../krpc-mars" }
+
+
+[build-dependencies]
+glob = "0.3.0"
+krpc_mars_terraformer = { path = "../krpc-mars-terraformer" }
